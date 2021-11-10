@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Penny Flip Game</title>
+    <title>Dice Roll Game</title>
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
     <main>
-        <H1>Penny Flip Game</H1>
+        <H1>Dice Roll Game</H1>
         <div>
-            <img id="penny-image" src="assets/images/penny-heads.jpg" alt="penny image">
+            <img id="dice-image" src="assets/images/dice/dice1.png" alt="dice image">
         </div>
         <div class="control">
-            <button id="flip">Flip The Penny!</button>
+            <button id="roll">Roll The Dice!</button>
             <button id="clear">Clear Scoreboard</button>
         </div>
         <div class="message-container">
@@ -26,18 +26,34 @@
                 <table>
                     <thead>
                         <tr>
-                            <th>Number of Heads</th>
-                            <th>Percentage Heads</th>
-                            <th>Number of Tails</th>
-                            <th>Percentage Tails</th>
+                            <th>Ones Rolled</th>
+                            <th>Percentage of Oness</th>
+                            <th>Twos Rolled</th>
+                            <th>Percentage of Twos</th>
+                            <th>Threes Rolled</th>
+                            <th>Percentage of Threes</th>
+                            <th>Fours Rolled</th>
+                            <th>Percentage of Fours</th>
+                            <th>Fives Rolled</th>
+                            <th>Percentage of Fives</th>
+                            <th>Sixes Rolled</th>
+                            <th>Percentage of Sixes</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td id="heads">0</td>
-                            <td id="heads-percent">0%</td>
-                            <td id="tails">0</td>
-                            <td id="tails-percent">0%</td>
+                            <td id="one">0</td>
+                            <td id="one-percent">0%</td>
+                            <td id="two">0</td>
+                            <td id="two-percent">0%</td>
+                            <td id="three">0</td>
+                            <td id="three-percent">0%</td>
+                            <td id="four">0</td>
+                            <td id="four-percent">0%</td>
+                            <td id="five">0</td>
+                            <td id="five-percent">0%</td>
+                            <td id="six">0</td>
+                            <td id="six-percent">0%</td>
                         </tr>
                     </tbody>
                 </table>
